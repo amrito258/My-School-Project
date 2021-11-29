@@ -1,0 +1,175 @@
+/* Heading of this page styles start */
+#filehead{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+    text-align: center;
+    width: 70%;
+}
+#heading-table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.heading-td{
+    width: 10%;
+}
+/* Heading of this page styles end */
+/* Nav links styles and making dropdown list styles start */
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+ul li{
+    float: left;
+    width: 150px;
+    height: 40px;
+    background-color:rgb(0, 0, 71);
+    color: white;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 2px;
+}
+ul li a{
+    font-family: oswald;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover{
+    background-color: green;
+}
+ul li ul li{
+    display: none;
+    font-family: oswald;
+    text-align: left;
+}
+ul li:hover ul li{
+    display: block;
+    width: 220px;
+}
+/* sign up and sign in img in nav links styles start */
+#accountimg{
+    filter: invert(100%);
+}
+#accountimg:hover{
+    border: solid red 2px;
+    transform: scale(1.1);
+}
+/* sign up and sign in img in nav links styles end */
+/* Nav links styles and making dropdown list styles end */
+.tabimg{
+    width: 100%;
+    height: 350px;
+}
+/* Recently updated table, elements, youtube, news and facebook styles start */
+.recent-news{
+    padding: 10px;
+}
+.recently-up{
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+}
+.tam{
+    font-size: 14px;
+}
+.ynf{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    background-color: rgb(0, 0, 71);
+    padding: 7px;
+}
+.tabtrtd{
+    border: rgb(0, 0, 71) 2px solid;
+}
+.tabassdate{
+    font-size: 14px;
+    color: white;
+    background-color: rgb(0, 0, 71);
+    border: rgb(0, 0, 71) 1px solid;
+    padding: 3px;
+    vertical-align: top;
+}
+.viewall{
+    color: white;
+    background-color: rgb(0, 0, 71);
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.newsarticle{
+    font-size: 18px;
+    color: rgb(3, 3, 77);
+}
+/* Recently updated table, elements, youtube, news and facebook styles start */
+#recently-updated-div{
+    font-size: 45px;
+    font-family: Ubuntu;
+    text-align: center;
+    background-color: rgb(0, 0, 71);
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+/* animation on the big img style start */
+.toimg-content{
+    margin-top: -38%;
+    position: relative;
+}
+#toimg-table{
+    width: 100%;
+}
+#toimg1, #toimg2{
+    position: relative;
+    display: inline-block;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+#toimg1{
+    animation-name: toimg-1;
+}
+#toimg2{
+    float: right;
+    animation-name: toimg-2;
+}
+#toimg1 p{
+    font-family: Lobster;
+    font-size: 35px;
+    background-color: rgb(0, 0, 71);
+    color: white;
+    padding: 8px;
+}
+#toimg2 p{
+    font-family: Lobster;
+    font-size: 35px;
+    background-color: rgb(0, 0, 71);
+    color: white;
+    padding: 8px;
+}
+@keyframes toimg-1{
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+        top: 0px;
+        left: 390px;
+    }
+}
+@keyframes toimg-2{
+    0% {
+        top: 0px;
+        right: 0px;
+    }
+    100% {
+        top: 0px;
+        right: 390px;
+    }
+}
+/* animation on the big img style end */
