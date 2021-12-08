@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="http://cscr.edu.bd/images/logo.png">
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/15a9c7dac0.js" crossorigin="anonymous"></script><!-- fontawsome icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,51 +40,53 @@
         <div id="navlinks">
             <nav>
         <ul>
-            <li><a title="Home" href="file:///C:/Users/DELL/Documents/My%20School%20Project/index.html">Home</a></li><!-- Home -->
-            <li><a href="#" title="About Us">&#8681;&nbsp;About Us</a><!-- About Us -->
+            <li style="margin-left: 4px;"><a title="Home" href="file:///C:/Users/DELL/Documents/My%20School%20Project/index.html">Home</a></li><!-- Home -->
+            <li><a href="#" title="About Us"><i class="fas fa-caret-square-down"></i>&nbsp;About Us</a><!-- About Us -->
                 <div id="abusdropdown">
                <ul>
                    <!-- dropdown list of about us -->
-                   <li><a title="Principal" href="#">&nbsp;&gt; Chairman & Principal</a></li>
-                   <li><a title="Our Teachers and Professor" href="#">&nbsp;&gt; Our Teachers & Professor</a></li>
+                   <li><a title="Chairman & Principal" href="#">&nbsp;&gt; Chairman & Principal</a></li>
+                   <li><a title="Our Teachers & Professor" href="#">&nbsp;&gt; Our Teachers & Professor</a></li>
                    <li><a title="Our Vision" href="#">&nbsp;&gt; Our Vision</a></li>
-                   <li><a href="https://amrito258.github.io/Web-Portfolio/" target="_blank">&nbsp;&gt; Our Web Designers</a></li>
+                   <li><a title="Our Web Designers" href="https://amrito258.github.io/My-Website/" target="_blank">&nbsp;&gt; Our Web Designers</a></li>
+                   <li style="border-bottom: none;"><a href="#">&nbsp;&gt; Policies and Guidelines</a></li>
                    <!-- dropdown list of about us -->
                </ul>
                </div>
             </li>
-            <li><a>&#8681;&nbsp;Contact</a><!-- Contact -->
-               <ul>
+            <li id="contact"><a><i class="fas fa-caret-square-down"></i>&nbsp;Contact</a><!-- Contact -->
+               <div id="drop-contact"><ul>
                    <!-- dropdown list of contact -->
-                   <li><a title="Our Phone Number" href="tel:+88001718370013">&nbsp;&gt; Call Us</a></li>
-                   <li><a title="Mail Us" href="mailto:principalcscr1998@gmail.com">&nbsp;&gt; E-Mail Us</a></li>
-                   <li><a title="If you have a question then click!" href="#" style="cursor: help;">&nbsp;&gt; Have a Question?</a></li>
+                   <li><a title="Call Us" href="tel:+88001718370013">&nbsp;&gt; Call Us</a></li>
+                   <li><a title="E-Mail Us" href="mailto:principalcscr1998@gmail.com">&nbsp;&gt; E-Mail Us</a></li>
+                   <li style="border-bottom: none;"><a title="If you have a question then click!" href="#" style="cursor: help;">&nbsp;&gt; Have a Question?</a></li>
                    <!-- dropdown list of contact -->
-               </ul>
+               </ul></div>
             </li>
-            <li><a>&#8681;&nbsp;Admission</a><!-- Admission -->
+            <li><a><i class="fas fa-caret-square-down"></i>&nbsp;Admission</a><!-- Admission -->
                 <!-- dropdown list of admission -->
                <ul>
-                   <li><a title="Admission Info" href="#">&nbsp;&gt; Admission Info</a></li>
+                   <li><a title="Admission Info" href="#">&nbsp;&gt; Admission Information</a></li>
                    <li><a title="Admission Form" href="#">&nbsp;&gt; Admission Form</a></li>
-                   <li><a title="Curiculam" href="#">&nbsp;&gt; Curriculum</a></li>
+                   <li style="border-bottom: none;"><a title="Curiculam" href="#">&nbsp;&gt; Curriculum</a></li>
                </ul>
                <!-- dropdown list of admission -->
             </li>
-            <li><a>&#8681;&nbsp;Academy</a><!-- Academy -->
-               <ul>
+            <li id="academy"><a><i class="fas fa-caret-square-down"></i>&nbsp;Academy</a><!-- Academy -->
+               <div id="drop-academy"><ul>
                    <!-- dropdown list of Academy -->
                    <li><a title="Reasult" href="#">&nbsp;&gt; Result</a></li>
-                   <li><a title="Routin" href="#">&nbsp;&gt; Routine</a></li>
+                   <li><a title="Books" href="#">&nbsp;&gt; Books</a></li>
+                   <li><a title="Routine" href="#">&nbsp;&gt; Routine</a></li>
                    <li><a title="Syllabus" href="#">&nbsp;&gt; Syllabus</a></li>
-                   <li><a title="Recently Updated" href="#recently-updated-div">&nbsp;&gt; Recently Updated</a></li>
+                   <li style="border-bottom: none;"><a title="Recently Updated" href="#recently-updated-div">&nbsp;&gt; Recently Updated</a></li>
                    <!-- dropdown list of Academy -->
-               </ul>
+               </ul></div>
             </li>
             <li><a href="#" title="Gallery">Gallery</a></li><!-- Gallery -->
             <li><a href="#" title="News">News</a></li><!-- News -->
-            <li><a href="#" title="Terms Of Service">Terms of Service</a></li><!-- Terms of Service -->
-            <li style="background-color: white; width: 8%; text-align: right;">
+            <li style="width: 200px;"><a href="#" title="Terms Of Service">Terms of Service</a></li><!-- Terms of Service -->
+            <li style="background-color: white; text-align: right; width: 67px;">
                 <a href="#"><img id="accountimg" title="Account" style="border-radius: 100px; width: 35px; height: 35px; vertical-align: bottom;" src="images/Screenshot(259).png" alt="Loading...."></a><!-- sign up and sign in Image link -->
             </li>
         </ul>
