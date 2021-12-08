@@ -35,7 +35,6 @@ ul li{
     height: 40px;
     background-color:rgb(0, 0, 71);
     color: white;
-    opacity: .8;
     line-height: 40px;
     text-align: center;
     font-size: 20px;
@@ -58,13 +57,73 @@ ul li ul li{
     display: none;
     font-family: poppins;
     text-align: left;
-    border-bottom: 1px white solid;
+    border-bottom: 3px white solid;
     z-index: 2;
 }
 ul li:hover ul li{
     display: block;
     width: 300px;
 }
+#contact:hover #drop-contact ul li{
+    width: 230px;
+}
+#academy:hover #drop-academy li{
+    width: 220px;
+}
+/* the books dropdown style start */
+.books-class-menu{
+    margin-left: 300px;
+    margin-top: -40px;
+}
+#books .books-class-menu ul li{
+    display: none;
+}
+#books:hover .books-class-menu ul li{
+    display: block;
+    width: 150px;
+}
+.books-class-menu ul li a{
+    font-family: 'Noto Sans', sans-serif;
+}
+.class-1-2-book-list{
+    margin-left: 150px;
+    margin-top: -40px;
+}
+.class-1-2 .class-1-2-book-list ul li{
+    display: none !important;
+}
+.class-1-2:hover .class-1-2-book-list ul li{
+    display: block !important;
+    width: 250px !important;
+}
+.class-1-2-book-list ul li a{
+    font-family: 'Noto Sans', sans-serif;
+}
+.class-3-5-book-list{
+    margin-left: 150px;
+    margin-top: -40px;
+    z-index: 2 !important;
+    position: relative;
+}
+.class-3-5 .class-3-5-book-list ul li{
+    display: none !important;
+}
+.class-3-5:hover .class-3-5-book-list ul li{
+    display: block !important;
+    width: 250px !important;
+}
+.class-6-8-book-list{
+    margin-left: 150px;
+    margin-top: -40px;
+}
+.class-6-8 .class-6-8-book-list ul li{
+    display: none !important;
+}
+.class-6-8:hover .class-6-8-book-list ul li{
+    display: block !important;
+    width: 280px !important;
+}
+/* the books dropdown style end */
 /* sign up and sign in img in nav links styles start */
 #accountimg{
     filter: invert(100%);
@@ -140,7 +199,10 @@ ul li:hover ul li{
     text-decoration: underline;
     color: rgb(13, 243, 13); 
 }
-#big-img-div img{
+#big-img-div{
+    height: 600px;
     width: 100%;
-    opacity: 1.2;
+    background-image: url("images/Screenshot\(271\).png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
