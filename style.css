@@ -2,10 +2,6 @@ body{
     margin: 0;
     padding: 0;
 }
-::selection{
-    background-color: white;
-    color: rgb(0, 0, 71);
-}
 /* Heading of this page styles start */
 #filehead{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -24,12 +20,15 @@ body{
 }
 /* Heading of this page styles end */
 /* Nav links styles and making dropdown list styles start */
-ul{
+nav ul li{
+    position: relative;
+}
+nav ul{
     margin: 0px;
     padding: 0px;
     list-style: none;
 }
-ul li{
+nav ul li{
     float: left;
     width: 150px;
     height: 40px;
@@ -40,99 +39,82 @@ ul li{
     font-size: 20px;
     margin-right: 2px;
 }
-ul li:hover{
-    -webkit-box-shadow: 0px 3px 40px 0px rgba(0,0,0,0.85); 
-    box-shadow: 0px 3px 40px 0px rgba(0,0,0,0.85);
+nav ul li:hover{
+    -webkit-box-shadow: -1px 0px 26px 7px #2e2e2e; 
+    box-shadow: -1px 0px 26px 7px #2e2e2e;
 }
-ul li a{
+nav ul li a{
     font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
     color: white;
     display: block;
 }
-ul li a:hover{
+nav ul li a:hover{
     background-color: green;
 }
-ul li ul li{
+nav ul li ul li{
     display: none;
     font-family: poppins;
     text-align: left;
     border-bottom: 3px white solid;
     z-index: 2;
 }
-ul li:hover ul li{
+nav ul li:hover ul li{
     display: block;
     width: 300px;
 }
-#contact:hover #drop-contact ul li{
+nav #contact:hover #drop-contact ul li{
     width: 230px;
 }
-#academy:hover #drop-academy li{
+nav #academy:hover #drop-academy li{
     width: 220px;
 }
-/* the books dropdown style start */
-.books-class-menu{
-    margin-left: 300px;
-    margin-top: -40px;
-}
-#books .books-class-menu ul li{
-    display: none;
-}
-#books:hover .books-class-menu ul li{
-    display: block;
-    width: 150px;
-}
-.books-class-menu ul li a{
-    font-family: 'Noto Sans', sans-serif;
-}
-.class-1-2-book-list{
-    margin-left: 150px;
-    margin-top: -40px;
-}
-.class-1-2 .class-1-2-book-list ul li{
-    display: none !important;
-}
-.class-1-2:hover .class-1-2-book-list ul li{
-    display: block !important;
-    width: 250px !important;
-}
-.class-1-2-book-list ul li a{
-    font-family: 'Noto Sans', sans-serif;
-}
-.class-3-5-book-list{
-    margin-left: 150px;
-    margin-top: -40px;
-    z-index: 2 !important;
-    position: relative;
-}
-.class-3-5 .class-3-5-book-list ul li{
-    display: none !important;
-}
-.class-3-5:hover .class-3-5-book-list ul li{
-    display: block !important;
-    width: 250px !important;
-}
-.class-6-8-book-list{
-    margin-left: 150px;
-    margin-top: -40px;
-}
-.class-6-8 .class-6-8-book-list ul li{
-    display: none !important;
-}
-.class-6-8:hover .class-6-8-book-list ul li{
-    display: block !important;
-    width: 280px !important;
-}
-/* the books dropdown style end */
 /* sign up and sign in img in nav links styles start */
-#accountimg{
+nav #accountimg{
     filter: invert(100%);
 }
-#accountimg:hover{
+nav #accountimg:hover{
     border: solid red 2px;
     transform: scale(1.1);
 }
 /* sign up and sign in img in nav links styles end */
+/* routine dropdown style start */
+.routine-dropdown{
+    margin-left: 220px;
+    margin-top: -82px;
+}
+.routine-dropdown ul li{
+    width: 180px !important;
+    display: none !important;
+}
+#routine:hover .routine-dropdown ul li{
+    display: block !important;
+}
+.primary-dropdown{
+    margin-left: 181px;
+    margin-top: -41px;
+    display: none;
+}
+#primary:hover .primary-dropdown{
+    display: block !important;
+}
+.high-school-dropdown{
+    margin-left: 181px;
+    margin-top: -41px;
+    display: none;
+}
+#high-school:hover .high-school-dropdown{
+    display: block;
+}
+.college-dropdown{
+    margin-left: 181px;
+    margin-top: -41px;
+    display: none;
+}
+#college:hover .college-dropdown{
+    display: block ;
+}
+/* routine dropdown style start */
 /* Nav links styles and making dropdown list styles end */
 .tabimg{
     width: 100%;

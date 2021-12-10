@@ -1,4 +1,89 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Noto Sans', sans-serif;
 }
+/* class routine style start */
+.cl-rou-heading{
+    margin-top: 200px;
+    text-align: center;
+}
+.cl-rou-heading h1{
+    font-size: 50px;
+}
+/* Flex section start */
+.routine-links ul{
+    margin: 0;
+    padding: 0;
+}
+.routine-links ul li{
+    display: flex;
+    float: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 102px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 71);
+}
+.routine-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+.routine-links ul li:hover{
+    background-color: rgb(57, 57, 212);
+    -webkit-box-shadow: -1px 1px 10px 5px #666666; 
+    box-shadow: -1px 1px 10px 5px #666666;
+}
+.routine-links ul li a:hover{
+    background-color: rgb(57, 57, 212);
+}
+/* Flex section end */
+.class-1-routine{
+    margin-top: 300px;
+}
+.class-routine{
+    margin-top: 200px;
+}
+.class-rou-head h2{
+    font-size: 35px !important;
+    border: 1px solid black;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px 0px;
+    background-color: rgb(0, 0, 71);
+    color: white;
+}
+.class-1-2-rou-table table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.class-3-8-rou-table table{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, tr, th, td{
+    border: 3px solid rgb(0, 0, 71);
+    border-collapse: collapse;
+}
+table{
+    text-align: center;
+}
+th{
+    background-color: rgb(0, 0, 71);
+    color: white;
+}
+.period{
+    width: 8%;
+}
+.time{
+    width: 12%;
+}
+/* class routine style end */
