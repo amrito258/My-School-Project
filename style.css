@@ -207,4 +207,16 @@ nav #accountimg:hover{
     justify-content: space-around;
     margin-top: 2px;
 }
+.top-arrow-bookmark{
+    position: fixed;
+    margin-left: 1300px;
+    margin-top: 420px;
+}
+.top-arrow-bookmark span{
+    font-size: 30px;
+    color: white;
+    background-color: rgb(0, 0, 71);
+    border-radius: 100%;
+    padding: 5px;
+}
 /* Fixed position links style end */
