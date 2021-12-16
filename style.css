@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
 }
 /* Heading of this page styles start */
 #filehead{
@@ -9,11 +11,13 @@ body{
     font-weight: 800;
     text-align: center;
     width: 70%;
+    border: none;
 }
 #heading-table{
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+    border: none;
 }
 .heading-td{
     width: 10%;
@@ -115,6 +119,19 @@ nav #accountimg:hover{
     display: block ;
 }
 /* routine dropdown style start */
+/* books dropdown style start */
+.dropdown-of-books{
+    margin-left: 220.5px;
+    margin-top: -41px;
+}
+#books .dropdown-of-books ul li{
+    width: 130px !important;
+    display: none;
+}
+#books:hover .dropdown-of-books ul li{
+    display: block;
+}
+/* books dropdown style end */
 /* Nav links styles and making dropdown list styles end */
 .tabimg{
     width: 100%;
