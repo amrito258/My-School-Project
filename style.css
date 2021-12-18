@@ -22,6 +22,11 @@ body{
 .heading-td{
     width: 10%;
 }
+header{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+
+}
 /* Heading of this page styles end */
 /* Nav links styles and making dropdown list styles start */
 nav ul li{
@@ -138,23 +143,45 @@ nav #accountimg:hover{
     height: 350px;
 }
 /* Recently updated table, elements, youtube, news and facebook styles start */
-.recent-news{
-    padding: 10px;
+.recent-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url("images/template.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .recently-up{
-    position: relative;
-    display: inline-block;
-    margin-left: 100px;
+    margin: 5.2%;
+}
+.recent-news{
+    padding: 10px;
 }
 .tam{
     font-size: 14px;
 }
 .ynf{
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 550;
     background-color: rgb(0, 0, 71);
     padding: 7px;
+}
+.facebook{
+    width: 306px;
+    border: 2px rgb(0, 0, 71) solid;
+}
+.facebook-head{
+    text-align: center;
+    background-color: rgb(0, 0, 71);
+    height: 40px;
+    margin-top: -17px;
+}
+.facebook-head p{
+    color: white;
+    padding-top: 8px;
+}
+.facebook-iframe{
+    height: 600px;
 }
 .tabtrtd{
     border: rgb(0, 0, 71) 2px solid;
@@ -177,9 +204,8 @@ nav #accountimg:hover{
     font-size: 18px;
     color: rgb(3, 3, 77);
 }
-/* Recently updated table, elements, youtube, news and facebook styles start */
 #recently-updated-div{
-    font-size: 45px;
+    font-size: 4vw;
     font-family: 'Noto Sans', sans-serif;
     text-align: center;
     background-color: rgb(0, 0, 71);
@@ -189,6 +215,7 @@ nav #accountimg:hover{
     margin-right: auto;
     padding: 10px;
     border-radius: 30px;
+    margin-top: 150px;
 }
 .viewalllink{
     color: white;
@@ -198,6 +225,7 @@ nav #accountimg:hover{
     text-decoration: underline;
     color: rgb(13, 243, 13); 
 }
+/* Recently updated table, elements, youtube, news and facebook styles start */
 #big-img-div{
     height: 600px;
     width: 100%;
@@ -209,7 +237,7 @@ nav #accountimg:hover{
 .fixed-position-menu{
     position: fixed;
     z-index: 5;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 2px;
 }
 .fixed-position-menu a{
@@ -220,14 +248,14 @@ nav #accountimg:hover{
     flex-direction: column;
     font-size: 35px;
     color: rgb(0, 0, 71);
-    background-color: white;
     justify-content: space-around;
+    background-color: white;
     margin-top: 2px;
 }
 .top-arrow-bookmark{
     position: fixed;
     margin-left: 1300px;
-    margin-top: 420px;
+    margin-top: 400px;
 }
 .top-arrow-bookmark span{
     font-size: 30px;
