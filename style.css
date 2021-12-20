@@ -29,13 +29,11 @@ header{
 }
 /* Heading of this page styles end */
 /* Nav links styles and making dropdown list styles start */
-nav ul li{
-    position: relative;
-}
 nav ul{
     margin: 0px;
     padding: 0px;
     list-style: none;
+    
 }
 nav ul li{
     float: left;
@@ -47,10 +45,7 @@ nav ul li{
     text-align: center;
     font-size: 20px;
     margin-right: 2px;
-}
-nav ul li:hover{
-    -webkit-box-shadow: -1px 0px 26px 7px #2e2e2e; 
-    box-shadow: -1px 0px 26px 7px #2e2e2e;
+    position: relative;
 }
 nav ul li a{
     font-family: 'Noto Sans', sans-serif;
@@ -59,7 +54,7 @@ nav ul li a{
     display: block;
 }
 nav ul li a:hover{
-    background-color: green;
+    background-color: rgb(26, 26, 196);
 }
 nav ul li ul li{
     display: none;

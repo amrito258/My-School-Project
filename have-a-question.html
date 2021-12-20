@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="http://cscr.edu.bd/images/logo.png">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style-2.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/15a9c7dac0.js" crossorigin="anonymous"></script><!-- fontawsome icon link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
@@ -19,14 +20,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet"><!-- Noto Sans Font -->
     <!-- Google Fonts -->
-    <style>
-
-    </style>
 </head>
 <body>
     <header id="header">
         <!-- Heading with Two Logo Start -->
-        <div style="padding-top: 20px; border: none;"><table id="heading-table">
+        <div style="padding-top: 30px; border: none;"><table id="heading-table">
             <tr class="heading-tr">
                 <td class="heading-td" style="text-align: right;">
                     <img src="images/logo.png" alt="Loading....">
@@ -74,9 +72,9 @@
             <li id="contact"><a><i class="fas fa-caret-square-down"></i>&nbsp;Contact</a><!-- Contact -->
                <div id="drop-contact"><ul>
                    <!-- dropdown list of contact -->
-                   <li><a title="Call Us" href="tel:+88001718370013">&nbsp;&gt; Call Us</a></li>
+                   <li><a title="Call Us" href="tel:+8801718370013">&nbsp;&gt; Call Us</a></li>
                    <li><a title="E-Mail Us" href="mailto:principalcscr1998@gmail.com">&nbsp;&gt; E-Mail Us</a></li>
-                   <li style="border-bottom: none;"><a title="If you have a question then click!" href="#" style="cursor: help;">&nbsp;&gt; Have a Question?</a></li>
+                   <li style="border-bottom: none;"><a title="If you have a question then click!" target="_blank" href="have-a-question.html" style="cursor: help;">&nbsp;&gt; Have a Question?</a></li>
                    <!-- dropdown list of contact -->
                </ul></div>
             </li>
@@ -159,5 +157,31 @@
         </nav>
         </div>
         <!-- Navigation Links End -->
+        <!-- have a question form start -->
+        <div class="have-a-ques-form">
+            <div class="have-a-ques-form-head" style="border: 5px solid rgb(0, 0, 71);">
+                <h2> If You Have A Question Then <br> Let Us Know</h2>
+            </div>
+            <div class="have-a-ques-main-form" style="border: 5px solid rgb(0, 0, 71);">
+                <form action="send.php" method="post">
+                    <input type="text" placeholder="Enter Your Full Name" name="full-name" id="full-name" required>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email Address" required>
+                    <input type="tel" name="ph-number" id="ph-number" placeholder="Enter Your Phone Number">
+                    <textarea placeholder="Write The Question......." name="question" id="question" required></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+        <!-- have a question form end -->
+        <!-- other way to contact start -->
+        <div class="other-way-contact">
+        <h3 class="other-con-head">Other Ways To Contact With Us:</h3>
+        <div class="other-contact-link">
+            <a href="tel:+8801718370013"><i title="Call Us" class="fas fa-phone-alt"></i></a>
+            <a href="mailto:principalcscr1998@gmail.com"><i title="Email Us" class="far fa-envelope"></i></a>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=8801755168687&app=facebook&entry_point=page_cta&fbclid=IwAR0SbTt37t70QzYgnifz8bF3i5CdVHgzPH1brVXxYlDqRAa1IDc8up06pUs"><i title="Whats App" class="fab fa-whatsapp"></i></a>
+        </div>
+        </div>
+        <!-- other way to contact end -->
 </body>
 </html>

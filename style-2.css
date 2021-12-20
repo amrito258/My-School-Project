@@ -209,3 +209,103 @@ thead{
     background-color: rgb(0, 0, 71);
 }
 /* books style end */
+/* have a question page style start */
+.have-a-ques-form{
+    width: 70%;
+    margin-top: 18%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.have-a-ques-form-head{
+    text-align: center;
+    background-color: rgb(0, 0, 71);
+}
+.have-a-ques-form-head h2{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 2vw;
+}
+.have-a-ques-main-form input{
+    width: 60%;
+    padding: 10px;
+    margin: 15px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border: 3px solid black;
+    font-size: 17px;
+}
+.have-a-ques-main-form input:focus{
+    color: white;
+    background-color: rgb(26, 26, 196);
+    -webkit-box-shadow: 0px 1px 13px 4px rgba(0,0,0,0.59); 
+    box-shadow: 0px 1px 13px 4px rgba(0,0,0,0.59);
+}
+.have-a-ques-main-form input:focus::placeholder{
+    color: white;
+}
+.have-a-ques-main-form input::placeholder{
+    font-size: 18px;
+    color: black;
+}
+.have-a-ques-main-form textarea{
+    resize: none;
+    width: 80%;
+    height: 150px;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 15px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border: 3px solid black;
+}
+.have-a-ques-main-form textarea::placeholder{
+    color: black;
+}
+.have-a-ques-main-form textarea:focus::placeholder{
+    color: white;
+}
+.have-a-ques-main-form textarea:focus{
+    background-color: rgb(26, 26, 196);
+    -webkit-box-shadow: 0px 1px 13px 4px rgba(0,0,0,0.59); 
+    box-shadow: 0px 1px 13px 4px rgba(0,0,0,0.59);
+}
+input[type="submit"]{
+    width: 20%;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(0, 0, 71);
+    color: white;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    text-align: center;
+    padding: 10px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(26, 26, 196);
+    -webkit-box-shadow: 0px 1px 13px 5px rgba(0,0,0,0.59); 
+    box-shadow: 0px 1px 13px 5px rgba(0,0,0,0.59);
+}
+.other-con-head{
+    text-decoration: underline rgb(0, 0, 71) 2px;
+}
+.other-way-contact{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.other-contact-link{
+    margin-left: 21%;
+}
+.other-contact-link i{
+    color: white;
+    background-color: rgb(0, 0, 71);
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 100px;
+    margin-left: 25px;
+}
+.other-contact-link i:hover{
+    background-color: rgb(26, 26, 196);
+}
+/* have a question page style end */
